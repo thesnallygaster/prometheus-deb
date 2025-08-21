@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROMETHEUS_VERSION="3.5.0"
-DEB_REVISION="2"
+DEB_REVISION="3"
 ARCHITECTURE="$(dpkg --print-architecture)"
 
 GO_VERSION="1.24.6"
