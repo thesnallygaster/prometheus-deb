@@ -1,0 +1,10 @@
+# Add prometheus user
+adduser --quiet --system --home /var/lib/prometheus --no-create-home \
+	--group --gecos "prometheus user" prometheus
+
+mkdir -p /var/lib/prometheus
+
+chown prometheus:prometheus /var/lib/prometheus
+chown prometheus:adm /etc/prometheus
+
+chmod 700 /var/lib/prometheus
