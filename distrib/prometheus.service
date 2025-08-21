@@ -29,6 +29,7 @@ RestrictSUIDSGID=true
 #SystemCallFilter=@signal @timer
 
 ReadWritePaths=/var/lib/prometheus/data
+ReadOnlyPaths=/etc/prometheus
 
 PrivateUsers=true
 ProtectControlGroups=true
