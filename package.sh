@@ -5,7 +5,7 @@ DEB_REVISION="3"
 ARCHITECTURE="$(dpkg --print-architecture)"
 
 GO_VERSION="1.25.1"
-NODE_VERSION="22.18.0"
+NODE_VERSION="22.20.0"
 NPM_VERSION="9.9.4"
 
 if [ "${DISTRO}" == "debian" ]; then
